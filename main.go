@@ -1,18 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func quickSort(arr []int, low int, high int) {
-}
-
-func partition(arr []int, low int, high int) int {
-	return 0
-}
+	"github.com/quinn/algorithm-practice/quicksort"
+)
 
 func main() {
-	ints := []int{1, 8, 3, 47, 2, 5, 103}
+	ints := []int{1, 8, 3, 47, 2, 5, 7}
 
-	quickSort(ints, ints[0], ints[len(ints)-1])
+	quicksort.Sort(ints)
 
 	fmt.Println(ints)
 }
