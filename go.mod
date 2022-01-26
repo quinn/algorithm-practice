@@ -1,3 +1,3 @@
 module github.com/quinn/algorithm-practice
 
-go 1.17
+go 1.18
